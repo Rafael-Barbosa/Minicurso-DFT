@@ -14,7 +14,9 @@ cd ..
 
 wget https://jp-minerals.org/vesta/archives/3.4.6/VESTA-x86_64.tar.bz2
 
-tar -xzvf VESTA-x86_64.tar.bz2
+apt install xcrysden 
+
+tar -xvjf VESTA-x86_64.tar.bz2
 
 
 
