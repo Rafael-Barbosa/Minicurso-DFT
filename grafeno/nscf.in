@@ -1,0 +1,37 @@
+ &control
+! calculation type non-self consistent
+    calculation = 'nscf'
+    prefix = 'graphene'			
+    pseudo_dir = './'		
+    outdir = './'		
+    wf_collect = .true.
+    verbosity = 'high'
+ /
+ &system
+    ibrav = 4
+    celldm(1) = 4.65303296132007217931
+    celldm(3) = 4.87408610885458976441
+    nat = 2		
+    ntyp = 1
+    nbnd = 12
+    ecutwfc = 30	
+    ecutrho = 240
+    occupations = 'smearing'
+!   occupations = 'tetrahedra'
+    degauss = 0.01
+ /
+ &electrons
+    conv_thr = 1.0e-8
+    mixing_beta = 0.1
+    mixing_mode = 'local-TF'
+    electron_maxstep = 100
+ /
+ &ions					
+ /
+ATOMIC_SPECIES
+  C   6    C.pbe-rrkjus.UPF
+ATOMIC_POSITIONS crystal
+C        0.666666666   0.333333333   0.000000000
+C        0.333333333   0.666666666   0.000000000
+K_POINTS automatic
+40 40 1 0 0 0				! k-grid for nscf.

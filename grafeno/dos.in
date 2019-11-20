@@ -1,0 +1,9 @@
+&dos
+ outdir='./'
+ prefix='graphene'
+ fildos='graphene.dos'				
+ Emin=-20					
+ Emax=10.0					
+ DeltaE=0.01					
+ degauss=0.007					
+ /
