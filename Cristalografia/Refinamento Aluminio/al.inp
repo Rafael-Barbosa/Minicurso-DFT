@@ -1,0 +1,33 @@
+  ! Template file to be used with the program FOURIER
+  ! Title of the job
+Titl   UGd4O12
+
+  ! Cell parameters
+Cell      4.0431    4.0431    4.0431   90.0000   90.0000   90.0000
+
+  ! Atoms in the asymmetric unit 
+Atom  Al       0.00000   0.00000   0.00000   1.00000
+
+  ! Space group symbol
+Spgr F m -3 m            
+
+  ! Type of Fourier synthesis 
+Fourier Fobs 
+
+  ! Name of the Fourier-reflection file
+File  fou al.fou
+
+  ! Format of the Fourier-reflection file
+Form    h k l fo fc phase
+
+  ! List distances
+List   dist  0.6  2.6
+
+  ! Standard output binary file
+File   bin
+
+  ! Peak search 
+Scan   5
+
+  ! End of file
+End 

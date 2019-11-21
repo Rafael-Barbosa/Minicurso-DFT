@@ -1,0 +1,50 @@
+TITL  UGd4O12
+FILES => PCR-file : al
+FILES => DAT-files: al                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+DATE & TIME     Date: 04/11/2019  Time: 17:18:32.477                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     0       5       0       0       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0     1
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     0     0
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     0
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3    1     0     0     0     0
+DATT        0   0        0.00
+PHAS1 UGdO                          
+SPGR F m -3 m            
+NATM    1
+COND    0   0   0   0
+ATOM Al       0.00000   0.00000   0.00000   0.00000   0.16667  0  0    0
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+CELL    4.04313   4.04313   4.04313  90.00000  90.00000  90.00000
+SIGM    0.00004   0.00004   0.00004   0.00000   0.00000   0.00000
+NNVK     0
+SCAL    0.000194152   0.000000973
+SHAP   0.45931  0.00000
+BOVE    0.8024   0.0124
+HUVW    0.0319   0.0022   0.0179   0.0034   0.0106   0.0010
+PREF   -0.1269   0.0174   0.0000   0.0000
+ASYM    0.0851   0.0045   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+XYPA    0.0038   0.0001   0.0000   0.0000
+STRA    0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+SIZE    0.0000   0.0000   0.0000   0.0000
+ZERO    0.00572   0.00080
+BACK    79.76      -49.49       14.75      -1.268       0.000       0.000    
+SIGM   0.6781      0.9917      0.4268      0.5548E-01   0.000       0.000    
+RFAR   10.72      14.56      11.82      1.516    
+RFAC   21.64      22.15      17.99      1.516       22813
+DEVA  0.3503E+05  1.529      1.414      1.960    
+RFBR   9.621      13.20      10.11      1.705    
+RFBC   15.24      17.90      13.70      1.705       13005
+DEVB  0.2293E+05  1.757      2.205      1.948    
+BRAG1    3.976    3.003      66.093     100.000    6907.550       1.000
+--------------------------------------------------------------------------------
